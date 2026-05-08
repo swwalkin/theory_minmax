@@ -42,8 +42,7 @@ def check_winner(board):
     return " "
 
 def Search(board, depth, turn):
-    s = check_winner(board)
-    if s != " ": return Score[s]
+    if (s := check_winner(board)) != " ": return Score[s]
 
     if turn:
         max_score = -float("inf")
