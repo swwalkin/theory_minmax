@@ -1,14 +1,10 @@
 # 변수
 
-# 하이퍼 파라미터
-Test_Depth = 7
 Score = {
     "X" : -1,
     "O" : 1,
     "D" : 0
 }
-
-# 기타
 Board_Size = 3
 Board = [" " for _ in range(Board_Size**2)]
 """
